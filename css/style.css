@@ -13,6 +13,7 @@
     --lightgrey: #d3d3d3;
     --white: #fff;
     --navorange: #daa520;
+    --green: #228b22;
     --space-s: 5px;
     --space-m: 15px;
     --space-l: 40px;
@@ -84,4 +85,32 @@ nav button{
     background-color: var(--pink);
     flex-basis: 50%;
     min-height: 400px;    
+}
+
+/*main section + main section reverse*/
+.main-section{
+    background-color: var(--white);
+    padding: var(--space-l) 0;
+}
+
+.main-section-reverse{
+    background-color: var(--lightgrey);
+    padding: var(--space-l) 0;
+}
+
+.img-section{
+    background-color: var(--lightblue);
+    flex-basis: 60%;
+    min-height: 500px;
+}
+
+.text-section{
+    background-color: var(--lightpink);
+    flex-basis: 40%;
+}
+
+.recap{
+    background-color: var(--green);
+    flex-basis: 100%;
+    min-height: 800px;
 }
