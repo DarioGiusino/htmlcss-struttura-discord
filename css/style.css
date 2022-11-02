@@ -9,6 +9,7 @@
     --pink: #ee82ee;
     --lightpink: #ffc0cb;
     --darkpink:#f08080;
+    --footerpink: #ffb6c1;
     --blue: #00008b;
     --lightblue: #1e90ff;
     --lightgrey: #d3d3d3;
@@ -16,13 +17,25 @@
     --navorange: #daa520;
     --green: #228b22;
     --lightgreen:#20b2aa;
+    --footergreen: #7fffd4;
     --black: #23272a;
-    --space-s: 10px;
+    --space-s: 5px;
     --space-m: 15px;
     --space-l: 40px;
 }
 
-/*Utils*/
+/*generics*/
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*utils*/
 .container{
     max-width: 1080px;
     margin: 0 auto;
@@ -74,7 +87,6 @@ li a{
 nav button{
     background-color: var(--navorange);
     justify-content: flex-end;
-    cursor: pointer;
 }
 
 /*header section*/
@@ -139,4 +151,22 @@ nav button{
 
 .detail-section{
     flex-basis: 25%;
+}
+
+/*footer*/
+footer{
+    background-color: var(--black);
+    padding-top: var(--space-l);
+}
+
+.footer-box{
+    background-color: var(--footergreen);
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-m) 0;
+}
+
+footer .footer-logo, footer .footer-btn{
+    background-color: var(--footerpink);
+    padding: var(--space-s);
 }
