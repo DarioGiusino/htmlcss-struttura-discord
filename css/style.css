@@ -8,13 +8,16 @@
 :root{
     --pink: #ee82ee;
     --lightpink: #ffc0cb;
+    --darkpink:#f08080;
     --blue: #00008b;
     --lightblue: #1e90ff;
     --lightgrey: #d3d3d3;
     --white: #fff;
     --navorange: #daa520;
     --green: #228b22;
-    --space-s: 5px;
+    --lightgreen:#20b2aa;
+    --black: #23272a;
+    --space-s: 10px;
     --space-m: 15px;
     --space-l: 40px;
 }
@@ -112,5 +115,28 @@ nav button{
 .recap{
     background-color: var(--green);
     flex-basis: 100%;
-    min-height: 800px;
+    min-height: 900px;
+}
+
+/*footer section*/
+.footer-section{
+    background-color: var(--black);
+    padding-top: var(--space-s);
+    padding-bottom: var(--space-l);
+    border-bottom: 2px solid var(--white);
+}
+
+.contacts{
+    background-color: var(--darkpink);
+    flex-basis: 30%;
+    min-height: 700px;
+}
+
+.details{
+    background-color: var(--lightgreen);
+    flex-basis: 70%;
+}
+
+.detail-section{
+    flex-basis: 25%;
 }
