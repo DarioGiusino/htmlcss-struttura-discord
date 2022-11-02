@@ -11,10 +11,11 @@
     --blue: #00008b;
     --lightblue: #1e90ff;
     --lightgrey: #d3d3d3;
+    --white: #fff;
     --navorange: #daa520;
-    --space-s: 10px;
+    --space-s: 5px;
     --space-m: 15px;
-    --space-l: 20px;
+    --space-l: 40px;
 }
 
 /*Utils*/
@@ -34,7 +35,7 @@
     border: 2px dashed #fff;;
 }
 
-/* Header */
+/*header*/
 header{
     background-color: #add8e6;
     padding: var(--space-m) 0;
@@ -46,7 +47,7 @@ nav{
 
 nav > div, nav button{
     flex-grow: 1;
-    padding: var(--space-m);
+    padding: var(--space-s);
 }
 
 nav ul{
@@ -61,6 +62,7 @@ nav li{
 }
 
 li a{
+    color: #000;
     text-decoration: none;
     padding: 0 var(--space-s);
 }
@@ -69,4 +71,17 @@ nav button{
     background-color: var(--navorange);
     justify-content: flex-end;
     cursor: pointer;
+}
+
+/*header section*/
+.header-section{
+    background-color: var(--blue);
+    padding: var(--space-l) 0;
+    justify-content: center;
+}
+
+.main-desc{
+    background-color: var(--pink);
+    flex-basis: 50%;
+    min-height: 400px;    
 }
